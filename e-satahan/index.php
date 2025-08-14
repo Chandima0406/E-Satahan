@@ -1,3 +1,12 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+    <title>E-Satahan| Home Page</title>
+</head>
+<body>
+    
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -133,5 +142,6 @@
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
 
+ main
 </body>
 </html>
