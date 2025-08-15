@@ -202,7 +202,7 @@ echo "<script>alert('Invalid Details');</script>";
     <script src="js/main.js"></script>
     
     <script>
-        // Hide spinner after page load
+        
         $(window).on('load', function() {
             $('#spinner').fadeOut('slow');
         });
