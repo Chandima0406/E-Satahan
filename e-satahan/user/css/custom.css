@@ -1,0 +1,53 @@
+/* Custom CSS */
+@font-face {
+    font-family: 'Bootstrap Icons';
+    src: url('../fonts/bootstrap-icons.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fix for chart errors */
+canvas {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Chat styles */
+.chat-container {
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message.sent {
+    background-color: #007bff;
+    color: white;
+    margin-left: 20%;
+}
+
+.message.received {
+    background-color: #f8f9fa;
+    margin-right: 20%;
+}
+
+/* Fix for slow network warning */
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/Heebo-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} 
